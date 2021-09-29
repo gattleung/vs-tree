@@ -51,6 +51,13 @@ export default (VsTree) => {
           type: Number,
           default: 26
         },
+        virtual: {
+          type: Object,
+          default: {
+            showCount: 20,
+            itemHeight: 26
+          }
+        },
 
         maxHeight: String,
         minHeight: String,
